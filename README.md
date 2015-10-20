@@ -20,13 +20,13 @@ wiredep</p>
 Node.js<br />
 npm</p>
 
-<p>To install:<br />
-``git clone https://github.com/geodee/selfsaged project-name``<br />
-Install gulp and Bower globally with ``npm install -g gulp bower``<br />
-Navigate to the theme directory, then run ``npm install``<br />
-Run "bower install"</p>
+To install:<br />
+`git clone https://github.com/geodee/selfsaged project-name`<br />
+Install gulp and Bower globally with `npm install -g gulp bower`<br />
+Navigate to the theme directory, then run `npm install`<br />
+Run "bower install"
 
-<p>To run use gulp:<br />
-``gulp`` — Compile and optimize the files in your assets directory<br />
-``gulp watch`` — Compile assets when file changes are made<br />
-``gulp --production`` — Compile assets for production (no source maps)</p>
+To run use gulp:<br />
+`gulp` — Compile and optimize the files in your assets directory<br />
+`gulp watch` — Compile assets when file changes are made<br />
+`gulp --production` — Compile assets for production (no source maps)
