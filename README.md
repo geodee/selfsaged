@@ -24,7 +24,7 @@ To install:<br />
 `git clone https://github.com/geodee/selfsaged project-name`<br />
 Install gulp and Bower globally with `npm install -g gulp bower`<br />
 Navigate to the theme directory, then run `npm install`<br />
-Run "bower install"
+Run `bower install`
 
 To run use gulp:<br />
 `gulp` — Compile and optimize the files in your assets directory<br />
