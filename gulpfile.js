@@ -22,6 +22,7 @@ var uglify       = require('gulp-uglify');
 var php  = require('gulp-connect-php');
 
 
+
 // See https://github.com/austinpray/asset-builder
 var manifest = require('asset-builder')('./assets/manifest.json');
 
@@ -245,7 +246,7 @@ gulp.task('clean', require('del').bind(null, [path.dist]));
 
 
 gulp.task('php', function() {
-    php.server({ base: 'public', port: 8010, keepalive: true, router: '/Users/geodee/Documents/NON-Dropbox-sync/boostrap-dev/router.php'});
+    php.server({ base: 'public', port: 8010, keepalive: true, router: '../router.php'});
 });
 
 
