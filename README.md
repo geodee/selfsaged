@@ -1,35 +1,32 @@
 # selfsaged
 
-So... like I took Roots Sage, and removed most/some of the Wordpress stuff, added php web server, and pushed everything into a public folder.
+<p>So... like I took Roots Sage, and removed most/some of the Wordpress stuff, added php web server, and pushed everything into a public folder.</p>
 
-It mostly works, at least for me. Also I have no clue how to use git.
+<p>It mostly works, at least for me. Also I have no clue how to use git.</p>
 
-Check the gulpfile.js for php.server—I had to hard code a link to the router.php file (which is a major hack and a half its self). I still don't know why I have to hard code it, but I get an error if I don't.
+<p>Also, I know very little javascript.</p>
 
-Also, I know very little javascript.
+<p>If you don't know Roots Sage, this includes:</p>
 
-If you don't know Roots Sage, this includes:
+<p>gulp<br />
+Bower<br />
+BrowserSync<br />
+asset-builder<br />
+wiredep</p>
 
-gulp
-Bower
-BrowserSync
-asset-builder
-wiredep
+<p>It's actually a pretty decent tool</p>
 
-It's actually a pretty decent tool
+<p>Requires:<br />
+Node.js<br />
+npm</p>
 
-Requires:
-Node.js
-npm
+<p>To install:<br />
+"git clone https://github.com/geodee/selfsaged project-name"<br />
+Install gulp and Bower globally with "npm install -g gulp bower"<br />
+Navigate to the theme directory, then run "npm install"<br />
+Run "bower install"</p>
 
-To install:
-"git clone https://github.com/geodee/selfsaged project-name"
-Install gulp and Bower globally with "npm install -g gulp bower"
-Navigate to the theme directory, then run "npm install"
-Run "bower install"
-
-To run use gulp:
-gulp — Compile and optimize the files in your assets directory
-gulp watch — Compile assets when file changes are made
-gulp --production — Compile assets for production (no source maps)
-
+<p>To run use gulp:<br />
+gulp — Compile and optimize the files in your assets directory<br />
+gulp watch — Compile assets when file changes are made<br />
+gulp --production — Compile assets for production (no source maps)</p>
