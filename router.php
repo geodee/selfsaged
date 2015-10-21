@@ -62,7 +62,7 @@ if ($pat == "/" ){
 $spat = $plat . '.php';
   {
   if(!@include($spat)) include ERRORS . "/404.php";
-   include $spat;
+//    include $spat;
   }
 }
 ?>
