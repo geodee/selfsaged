@@ -4,10 +4,6 @@
       "files": [
         "scripts/main.js"
       ],
-       "vendor": [
-        "scripts/respond.min.js",
-        "scripts/html5shiv.min.js"
-      ],
       "main": true
     },
     "main.css": {
@@ -16,11 +12,13 @@
       ],
       "main": true
     },
+    "customizer.js": {
+      "files": [
+        "scripts/customizer.js"
+      ]
+    },
     "jquery.js": {
       "bower": ["jquery"]
-    },
-    "modernizr.js": {
-      "bower": ["modernizr"]
     }
   },
   "config": {
@@ -30,5 +28,4 @@
  "source": "assets/",
  "dist": "public/dist/"
   }
-
 }
